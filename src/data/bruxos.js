@@ -99,4 +99,44 @@ export default [
         patrono: "Gato",
         especialidade: "Tranfiguração",
     },
+    {
+        id: 11,
+        nome: "Sirius Black",
+        casa: "Grifinória",
+        ano: 7,
+        varinha: "Madeira de Carvalho e cabelo de unicórnio, 28cm",
+        mascote: "Cão",
+        patrono: "Cão",
+        especialidade: "Transfiguração"
+    },
+    {
+        id: 12,
+        nome: "Severus Snape",
+        casa: "Sonserina",
+        ano: 6,
+        varinha: "Madeira de Ácer e fibra de cabelo de veela, 30cm",
+        mascote: "Nenhum",
+        patrono: "Cervo",
+        especialidade: "Poções e Feitiçaria das Trevas"
+    },
+    {
+        id: 13,
+        nome: "Remus Lupin",
+        casa: "Grifinória",
+        ano: 7,
+        varinha: "Madeira de Freixo e cabelo de lobisomem, 29cm",
+        mascote: "Nenhum",
+        patrono: "Lobo",
+        especialidade: "Defesa Contra as Artes das Trevas"
+    },
+    {
+    id: 14,
+    nome: "Alastor Moody",
+    casa: "Grifinória",
+    ano: 6,
+    varinha: "Madeira de Carvalho e cabelo de Dragão, 31cm",
+    mascote: "Nenhum",
+    patrono: "Veado",
+    especialidade: "Defesa Contra as Artes das Trevas"
+    }
 ];
