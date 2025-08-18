@@ -138,5 +138,27 @@ export default [
     mascote: "Nenhum",
     patrono: "Veado",
     especialidade: "Defesa Contra as Artes das Trevas"
+    },
+    {
+    id: 14,
+    nome: "Alastor Moody",
+    casa: "Grifinória",
+    ano: 6,
+    varinha: "Madeira de Carvalho e cabelo de Dragão, 31cm",
+    mascote: "Nenhum",
+    patrono: "Veado",
+    especialidade: "Defesa Contra as Artes das Trevas"
+    },
+    {
+        id: 8,
+        nome: "Newt Scamander",
+        casa: "Lufa-Lufa",
+        ano: 9,
+        varinha: "Madeira de Cedro e núcleo de cabelo de unicórnio, 28cm",
+        mascote: "Niffler (Tronquilho)",
+        patrono: "Desconhecido",
+        especialidade: "Cuidados com Criaturas Mágicas"
     }
-];
+
+
+]
