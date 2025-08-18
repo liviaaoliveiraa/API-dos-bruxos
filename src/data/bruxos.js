@@ -150,7 +150,7 @@ export default [
     especialidade: "Defesa Contra as Artes das Trevas"
     },
     {
-        id: 8,
+        id: 15,
         nome: "Newt Scamander",
         casa: "Lufa-Lufa",
         ano: 9,
