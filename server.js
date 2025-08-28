@@ -126,11 +126,10 @@ app.get("/varinhas", (req, res) => {
     }
   });
 
-app.get("/varinhas/id/:id", (req, res) => {
-  let id = req.params.id;
-  id = parseInt(id);
+app.get("/varinhas/:id", (req, res) => {
+  const id = parseInt(req.params.id);
   const varinha = varinhas.find(v => v.id === id);
-  console.log(varinha);
+  
 
   if(varinha) {
       res.status(200).json(varinha);

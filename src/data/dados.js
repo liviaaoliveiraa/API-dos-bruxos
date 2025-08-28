@@ -164,7 +164,7 @@ const bruxos = [
 ]
 
 const varinhas = [
-    [
+    
         {
           id: 1,
           material: "Azevinho",
@@ -189,7 +189,7 @@ const varinhas = [
           nucleo: "Pelo de Testrálio",
           comprimento: 32
         }
-      ]
+      
 ]
 
       const animais = [
