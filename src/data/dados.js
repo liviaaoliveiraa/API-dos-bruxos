@@ -169,25 +169,25 @@ const varinhas = [
           id: 1,
           material: "Azevinho",
           nucleo: "Pena de Fênix",
-          comprimento: "28cm"
+          comprimento: 28
         },
         {
           id: 2,
           material: "Videira",
           nucleo: "Fibra de Coração de Dragão",
-          comprimento: "27cm"
+          comprimento: 27
         },
         {
           id: 3,
           material: "Salgueiro",
           nucleo: "Pelo de Unicórnio",
-          comprimento: "35cm"
+          comprimento: 35
         },
         {
           id: 4,
           material: "Carvalho Inglês",
           nucleo: "Pelo de Testrálio",
-          comprimento: "32cm"
+          comprimento: 32
         }
       ]
 ]

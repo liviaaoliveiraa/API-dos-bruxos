@@ -117,36 +117,45 @@ app.get("/animais/id/:id", (req, res) => {
 });
 
 app.get("/varinhas", (req, res) => {
-  if (varinhas.lenght > 0) {
-    res.status(200).json(varinhas);
-  }
-});
+    if (varinhas.length > 0) {
+      res.status(200).json(varinhas);
+    } else {
+      res.status(404).json({
+        mensagem: "Ops! Varinha não encontrada 🪄",
+      });
+    }
+  });
 
 app.get("/varinhas/id/:id", (req, res) => {
   let id = req.params.id;
   id = parseInt(id);
-  const varinha = varinhas.find((v) => v.id === id);
+  const varinha = varinhas.find(v => v.id === id);
   console.log(varinha);
 
-  if (varinha) {
-    res.status(200).json(varinha);
+  if(varinha) {
+      res.status(200).json(varinha);
   } else {
-    res.status(404).json({
-      mensagem: "Ops!nenhuma varinha encontrada!🪄",
-    });
+      res.status(400).json ({
+      mensagem: "Ops varinha não encontrada!"
+  })
   }
 });
 
+
 app.get("/pocoes", (req, res) => {
-  if (pocoes.lenght > 0) {
-    res.status(200).json(pocoes);
-  }
-});
+    if (pocoes.length > 0) {
+      res.status(200).json(pocoes);
+    } else {
+      res.status(404).json({
+        mensagem: "Ops! poção não encontrada 🪄",
+      });
+    }
+  });
 
 app.get("/pocoes/id/:id", (req, res) => {
   let id = req.params.id;
   id = parseInt(id);
-  const pocao = pocoes.find(c.id === id);
+  const pocao = pocoes.find((c) => c.id === id);
   console.log(pocao);
 
   if (pocao) {
